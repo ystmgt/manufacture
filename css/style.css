@@ -1,0 +1,24 @@
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary
+{
+	display:block;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding 0;
+}
+
+#main_top {
+	overflow: auto;
+	height: 280px;
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -140px;
+	margin-left: -150px;
+	text-align: center;
+}
+
