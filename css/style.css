@@ -58,17 +58,15 @@ body {
 	float: left;
 	z-index: 99;
 	position: relative;
-	left: -22px;
+i	left: 0px;
 	height: 60px;
-	width: 182px;
-	/*text-indent: -9999em;*/
-	/*background: url(../images/logo-rodesk.png) top left repeat;*/
-	margin-right: 70px;
+	width: 200px;
+	margin-right: 130px;
 }
 
 #menu_navi {
 	margin: 0px;
-	padding: 10px 0 0 0;
+	padding: 12px 0 0 0;
 	list-style: none;
 	height: 20px;
 }
@@ -76,7 +74,7 @@ body {
 .menu_item {
 	float: left;
 	height: 20px;
-	margin-right: 35px;
+	margin-right: 50px;
 	list-style: none;
 }
 
@@ -111,5 +109,30 @@ body {
 	margin: 0 auto;
 	z-index: 99;
 	background: url(../img/bg1.jpg) top left repeat;
+}
+
+.wrap {
+	width: 940px;
+	height: 550px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#about_wrap {
+	padding: 100px 10px 10px 10px;
+	text-align: center;
+}
+
+#about_wrap > img {
+	margin: 10px;
+	border: white 2px solid;
+}
+
+#about_wrap > div {
+	margin: 10px auto;
+	text-align: left;
+	width: 700px;
+	color: #445566;
+	font-size: 0.8em;
 }
 
