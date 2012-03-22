@@ -22,3 +22,71 @@ body {
 	text-align: center;
 }
 
+#wrapper {
+	position: relative;
+	text-align: left;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+#navi {
+	width: 100%;
+	height: 60px;
+	z-index: 99;
+	position: absolute;
+}
+
+#navi_wrap {
+	width: 100%;
+	height: 60px;
+	z-index: 999;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: url(../img/header.jpg) top left repeat; 
+}
+
+#navi_wrap > nav {
+	width: 940px;
+	height: 60px;
+	margin: 0 auto;
+	background: url(../img/bg-navi.png) bottom left repeat-x;
+}
+
+
+#menu_navi {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	height: 20px;
+}
+
+.menu_item {
+	float: left;
+	height: 20px;
+	margin-right: 15px;
+	list-style: none;
+}
+
+.menu_item > a {
+	text-decoration: none;
+}
+
+#about {
+	width: 100%;
+	min-width: 960px;
+	min-height: 900px;
+	margin: 0 auto;
+	z-index: 99;
+	background: url(../img/bg1.jpg) top left repeat;
+}
+
+#photo {
+	width: 100%;
+	min-width: 960px;
+	min-height: 900px;
+	margin: 0 auto;
+	z-index: 99;
+	background: url(../img/bg2.jpg) top left repeat;
+}
+
