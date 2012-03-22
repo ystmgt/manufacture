@@ -53,10 +53,22 @@ body {
 	background: url(../img/bg-navi.png) bottom left repeat-x;
 }
 
+#logo {
+	display: block;
+	float: left;
+	z-index: 99;
+	position: relative;
+	left: -22px;
+	height: 60px;
+	width: 182px;
+	/*text-indent: -9999em;*/
+	/*background: url(../images/logo-rodesk.png) top left repeat;*/
+	margin-right: 70px;
+}
 
 #menu_navi {
 	margin: 0px;
-	padding: 0px;
+	padding: 10px 0 0 0;
 	list-style: none;
 	height: 20px;
 }
@@ -64,12 +76,14 @@ body {
 .menu_item {
 	float: left;
 	height: 20px;
-	margin-right: 15px;
+	margin-right: 35px;
 	list-style: none;
 }
 
 .menu_item > a {
 	text-decoration: none;
+	color: #555;
+
 }
 
 #about {
@@ -81,12 +95,21 @@ body {
 	background: url(../img/bg1.jpg) top left repeat;
 }
 
-#photo {
+#dj {
 	width: 100%;
 	min-width: 960px;
 	min-height: 900px;
 	margin: 0 auto;
 	z-index: 99;
 	background: url(../img/bg2.jpg) top left repeat;
+}
+
+#photo {
+	width: 100%;
+	min-width: 960px;
+	min-height: 900px;
+	margin: 0 auto;
+	z-index: 99;
+	background: url(../img/bg1.jpg) top left repeat;
 }
 
