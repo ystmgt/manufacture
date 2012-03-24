@@ -136,3 +136,33 @@ i	left: 0px;
 	font-size: 0.8em;
 }
 
+#dj_wrap {
+	padding-top: 100px;
+}
+
+#dj_wrap > div {
+	float: left;
+	width: 454px;
+	margin: 15px 5px;
+}
+
+#dj_wrap > div > img {
+	margin: 0 6px;
+	border: white 2px solid;
+}
+
+#dj_wrap > div > p {
+	margin: 0 10px;
+	width: 450px;
+	color: #ffc;
+	font-size: 0.7em;
+}
+
+#photo_wrap {
+	padding-top: 100px;
+}
+
+#photo_wrap > img {
+	margin: 4px;
+}
+
